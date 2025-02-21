@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Form Handling with Email and Google Sheets integration
 const contactForm = document.getElementById('contact-form');
-const FORM_SCRIPT_URL = 'YOUR_GOOGLE_SCRIPT_URL'; // You'll need to replace this with your actual script URL
+const FORM_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby8u-PTTGL5g1XkELSFhTiNSDwCkHqgPknFssA-9Rh-JrWVK69bGw4CDIIClzdMqyI/exec'; // You'll need to replace this with your actual script URL
 
 contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
